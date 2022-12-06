@@ -1,0 +1,49 @@
+﻿
+
+1_ Single_Responsibility_Principle
+While developing a project, we strive to write maintainable and readable code (besides the working part 😀 ). To accomplish this, each and every class should do its own task and do it well.
+Yes, it is quite important for a class to have no more than one task. If it does, our code becomes harder to maintain, due to the fact that it is responsible for the execution of several different tasks 
+and thus being more likely to change in the future.
+This is completely opposite of what the Single Responsibility Principle (SRP) states.
+The Single Responsibility Principle states that our classes should have only one reason to change or in other words, it should have only one responsibility.
+Simple as that.
+
+-Benefits of Single Responsibility Principle
+Our code has improved in several ways by implementing SRP. The first one being that it has become less complex. Because we are trying to accomplish only one task in our class, 
+they have become free of clutter and simple to read. As we reduce code complexity, our code becomes readable and therefore maintainable.
+As we could see from our example, if our class does its job well, we can reuse its logic in a project. Furthermore, with such a code, testing becomes easier as well.
+When we implement SRP in our code, our methods become highly related (coherent). It means that different methods are joined to do one thing and to do it well.
+Finally, our classes are less dependent on each other (decoupled) which is one of the most important things to achieve while working on a project.
+
+
+
+2_ Open_Closed_Principle
+The Open Closed Principle (OCP) is the SOLID principle which states that the software entities (classes or methods) should be open for extension but closed for modification.
+
+
+3_ Liskov_Substitution_Principle
+LSP guides how to use inheritance in object-oriented programming. It is about subtyping, and how to correctly derive a type from a base type
+Let φ(x) be a property provable about objects x of type T. Then φ(y) should also be true for objects y of type S where S is a subtype of T. 
+Subtypes must be substitutable for their base type. 
+ Here, the type can be interface, class, or abstract class in C#.
+Let's simplify it further. A derived class must be correctly substitutable for its base class. When you derived a class from a base class 
+then the derived class should correctly implement all the methods of the base class. It should not remove some methods by throwing NotImplementedException
+
+
+4_ Interface_Segregation_Principle
+Interface Segregation Principle (ISP) is the fourth principle of SOLID principles. It can be used in conjunction with LSP.
+Interface Segregation Principle (ISP) states that: Clients should not be forced to depend on methods they do not use. 
+Now, you may wondering, who is the client and what and whose methods it is talking about? 
+Here, a client is a code that calls the methods of a class with an instance of the interface. For example, a class implements an interface that contains 10 methods. 
+Now, you create an object of that class with a variable of that interface and call only 5 methods for the functionality you wanted and never call the other 5 methods. 
+So, this means that the interface contains more methods that are not used by all client codes. 
+It is called a fat interface. ISP suggests segregating that interface into two or more interfaces so that a class can implement the specific interface that it requires. 
+ The solution to ISP violations:
+    Split large interfaces into smaller ones.
+    inherit multiple small interfaces if required.
+    Use the adapter design pattern for the third-party large interface so that your code can work with the adapter.
+
+
+
+5_ Dependency_Inversion_Principle
+

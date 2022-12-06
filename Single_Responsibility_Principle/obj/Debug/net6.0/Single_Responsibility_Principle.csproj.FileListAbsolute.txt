@@ -1,0 +1,15 @@
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\bin\Debug\net6.0\Single_Responsibility_Principle.exe
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\bin\Debug\net6.0\Single_Responsibility_Principle.deps.json
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\bin\Debug\net6.0\Single_Responsibility_Principle.runtimeconfig.json
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\bin\Debug\net6.0\Single_Responsibility_Principle.dll
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\bin\Debug\net6.0\Single_Responsibility_Principle.pdb
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\Single_Responsibility_Principle.csproj.AssemblyReference.cache
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\Single_Responsibility_Principle.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\Single_Responsibility_Principle.AssemblyInfoInputs.cache
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\Single_Responsibility_Principle.AssemblyInfo.cs
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\Single_Responsibility_Principle.csproj.CoreCompileInputs.cache
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\Single_Responsibility_Principle.dll
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\refint\Single_Responsibility_Principle.dll
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\Single_Responsibility_Principle.pdb
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\Single_Responsibility_Principle.genruntimeconfig.cache
+C:\PROJECTS\SOLID_PRINCIPLES\Single_Responsibility_Principle\obj\Debug\net6.0\ref\Single_Responsibility_Principle.dll
