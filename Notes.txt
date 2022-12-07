@@ -21,6 +21,7 @@ Finally, our classes are less dependent on each other (decoupled) which is one o
 The Open Closed Principle (OCP) is the SOLID principle which states that the software entities (classes or methods) should be open for extension but closed for modification.
 
 
+
 3_ Liskov_Substitution_Principle
 LSP guides how to use inheritance in object-oriented programming. It is about subtyping, and how to correctly derive a type from a base type
 Let φ(x) be a property provable about objects x of type T. Then φ(y) should also be true for objects y of type S where S is a subtype of T. 
@@ -28,6 +29,7 @@ Subtypes must be substitutable for their base type.
  Here, the type can be interface, class, or abstract class in C#.
 Let's simplify it further. A derived class must be correctly substitutable for its base class. When you derived a class from a base class 
 then the derived class should correctly implement all the methods of the base class. It should not remove some methods by throwing NotImplementedException
+
 
 
 4_ Interface_Segregation_Principle
@@ -46,4 +48,15 @@ It is called a fat interface. ISP suggests segregating that interface into two o
 
 
 5_ Dependency_Inversion_Principle
-
+ Dependency Inversion Principle is the last principle of SOLID principles. It helps in loose coupling.
+DIP states that “High-level modules should not depend on low-level modules. Both should depend on abstraction”. 
+Now, the question is what are high-level and low-level modules and what is an abstraction? 
+A high-level module is a module (class) that uses other modules (classes) to perform a task.
+A low-level module contains a detailed implementation of some specific task that can be used by other modules.
+The high-level modules are generally the core business logic of an application whereas the low-level modules are input/output, database, file system, web API, 
+or other external modules that interact with users, hardware, or other systems. 
+Abstraction is something that is not concrete. 
+Abstraction should not depend on detail but details should depend on abstraction. For example, an abstract class or interface contains methods declarations that need to be implemented in concrete classes. 
+Those concrete classes depend on the abstract class or interface but not vice-versa. 
+Now, how do we know a class depends on another class? 
+You can identify a class is depends on another class if it creates an object of another class. You may require to add the reference of the namespace to compile or run the code. 
